@@ -1,0 +1,30 @@
+# General user files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code settings and local workspace files
+.vscode/
+.projectlinkstore
+
+# Build directories
+cmake_gcc/build/
+cmake_gcc/CMakeCache.txt
+cmake_gcc/CMakeFiles/
+cmake_gcc/*.ninja
+cmake_gcc/*.cmake
+cmake_gcc/compile_commands.json
+
+# Simplicity Studio / SDK generated files
+autogen/
+
+# Local generated logs and outputs
+*.log
+
+# Device-specific generated files
+*.pintool
+
+# Ignore SDK directory if not source-controlled
+simplicity_sdk_2025.12.1/
